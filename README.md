@@ -66,4 +66,15 @@ To create a Student object, we can do the fowllowing:
     student = Student("John Doe", 25, "123 Main st.", program)
     studen.show_details()
 
-    
+# Output    
+
+    Name: John Doe
+    Age: 25
+    Address: 123 Main st.
+    Program Name: Computer Science
+    Duration: 4
+
+As we can see from the output, the student object has access to all the attributes and methods of the Person and Human classes, as well a the Program class through association.
+
+In this way, hybrid inheritance allows fr a flexible and powerful way to inherit attributes and behaviors from multiple classes in a hierarchy or chain.
+
