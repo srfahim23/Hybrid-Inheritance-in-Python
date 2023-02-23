@@ -56,3 +56,14 @@ Consider the example of a Student class that inherits from the Person class, whi
         def show_details(self):
             Person.show_details(self)    
             self.program.show_details()
+
+
+In this example, the Student class inheritas from the Person class, which in turn inherits from the Human class. The Student class also has and association with the Program class. This is an example of Hybrid Inheritance in action, as it uses both Single inheritance and Association to achive the desired inheritance structure.
+
+To create a Student object, we can do the fowllowing:
+
+    program = Program("Computer Science", 4)
+    student = Student("John Doe", 25, "123 Main st.", program)
+    studen.show_details()
+
+    
